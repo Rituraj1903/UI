@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="taskManager">
+        <header class="card">
+          <h1 align="left">Task Management App using Java Script</h1>
+          <p align="left">Add Task</p>
+          <form id="taskForm">
+            <label for="taskInput">Title:</label>
+            <input type="text" id="taskTitle" placeholder="Add Title...">
+            <label for="taskDescription">Description:</label>
+            <input type="text" id="taskDescription" placeholder="Add Description...">
+            <label for="taskDate">Date:</label>
+            <input type="date" id="taskDate" name="Date">
+            <button type="submit">Add Task</button>
+          </form>
+        </header>
+      
+        <section id="taskContainer"></section>
+    </section>
+    <div class="confirm">
+        <h1>Confirm</h1>
+        <p>Do you want to <strong>delete</strong> this task?</p>
+        <button class="cancel">Cancel</button>
+        <button autofocus class="confirmed">Confirm</button>
+    </div>
+
+    <div class="editTask">
+      <h1>Edit Your Task</h1>
+      <form id="taskForm">
+        <label for="taskInput">Title:</label>
+        <input type="text" id="taskTitle" placeholder="Add Title...">
+        <label for="taskDescription">Description:</label>
+        <input type="text" id="taskDescription" placeholder="Add Description...">
+        <label for="taskDate">Date:</label>
+        <input type="date" id="taskDate" name="Date">
+        <button type="submit">Add Task</button>
+      </form>
+  </div>
+
+   
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
